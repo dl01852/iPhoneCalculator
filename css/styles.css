@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+
+p {
+  display: inline-block;
+}
+
+.iphone {
+  /* border: solid 1px fuchsia; */
+  max-width: 375px;
+  height: 800px;
+  margin: 20px auto;
+  box-shadow: 3px 2px #5e6266, 8px 10px 3px #000, -2px 1px 4px #ccd3db,
+    -4px -2px 3px #333, 3px -3px 3px #ccc;
+  border-radius: 50px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.horizontal-bar {
+  border-bottom: 5px solid #ccc;
+  border-radius: 50px;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 40px;
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.btn-tertiary:hover {
+  background-color: #cccccc;
+}
+
+.btn-operator:hover {
+  background-color: #ffb546;
+}
+.btn-primary:hover {
+  background-color: #5a5a5a;
+}
+
+.btn-operator {
+  background-color: #ff9d0b;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #333333;
+  color: #fff;
+}
+
+.btn-tertiary {
+  background-color: #a5a5a5;
+} 
+
+/***
+#5e6266
+#000
+#ccd3db
+#333
+#ccc
+*
